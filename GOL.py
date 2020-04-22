@@ -37,7 +37,7 @@ while True:
     write(rule1, 12, 30, 65, "White")
     write(rule2, 12, 30, 80, "White")
     write("Instructions:", 15, 10, 102, "White")
-    instructions = "Left click creates a cell, right click kills a cell, middle click kills all cells"
+    instructions = "Left click creates a cell, right click kills a cell, middle click kills all cells. Any key runs the game"
     write(instructions, 12, 30, 118, "White")
 
     game_state_copy = np.copy(game_state)
